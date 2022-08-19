@@ -14,6 +14,7 @@ import AppLayout from "./pages/AppLayout";
 import { theme, resources, sounds } from "./settings";
 
 const App = () => {
+  console.log("the app has stated")
   return <ThemeProvider theme={createTheme(theme)}>
     <SoundsProvider sounds={createSounds(sounds)}>
       <Arwes animate background={resources.background.large} pattern={resources.pattern}>
